@@ -1,5 +1,68 @@
-<h1>Hello World!</h1>
-<p>This is a simple HTML page to demonstrate the structure of an HTML document.</p>
-<p>Feel free to modify this content as you wish.</p>
-<p>Enjoy coding!</p>
-<p>Have a great day!</p>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdollah Gorji | Personal Homepage</title>
+  <!-- SEO Meta-Tags -->
+  <meta name="description" content="Official homepage of Abdollah Gorji (also known as Sam Gorji). Here you can find information, projects, and contact options.">
+  <meta name="keywords" content="Abdollah Gorji, Sam Gorji, Abdollah, Gorji, Sam, developer, homepage, portfolio">
+  <!-- Bootstrap CSS -->
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-overlay">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Meine Homepage</a>
+      </div>
+    </nav>
+    <div class="scroll-content">
+      <header class="container text-center py-5" style="padding-top: 120px;">
+        <img src="background.jpg" alt="Mein Foto" class="profilfoto mb-4 shadow">
+        <!-- <h1 class="display-4 fw-bold">Willkommen!</h1> -->
+        <blockquote class="blockquote poem">
+          <p class="lead mb-1">
+            Steh an einem kalten Tag auf –<br>
+            mit einem Lächeln und voller Energie.<br>
+            Hör Musik,<br>
+            lies ein Buch,<br>
+            löse eine Mathematikaufgabe,<br>
+            beweg dich,<br>
+            und denk an deine Träume.<br>
+            <span class="poem-emphasis">Der Tag vergeht schneller, als du denkst.</span>
+          </p>
+        </blockquote>
+      </header>
+      <main class="container">
+        <section class="my-5">
+          <h2 class="h3 mb-4">Über mich</h2>
+          <div class="mb-5">
+            <h3 class="h4 text-primary">Technologie & Software</h3>
+            <p>
+              Schon seit meiner Kindheit faszinieren mich Computer, Software und technische Innovationen. 
+              Ich entwickle leidenschaftlich gerne Anwendungen, löse komplexe Probleme und halte mich stets über neue Trends in der IT-Welt auf dem Laufenden.
+              Mein Fokus liegt auf moderner Webentwicklung, Automatisierung und kreativen Softwarelösungen im Bereich Finance und KI.
+            </p>
+          </div>
+          <div>
+            <h3 class="h4 text-success">Musik</h3>
+            <p>
+              Musik ist meine zweite große Leidenschaft. Sie begleitet mich durch den Alltag, inspiriert mich und gibt mir Energie. 
+              Ich spiele verschiedene Instrumente, komponiere eigene Stücke und genieße es, neue Musikrichtungen zu entdecken.
+              Für mich ist Musik ein wichtiger Ausgleich zur Technik und eine Quelle der Kreativität.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="container text-center py-4 fixed-bottom bg-white shadow">
+      <p class="mb-0">&copy; 2025 Meine Homepage</p>
+    </footer>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

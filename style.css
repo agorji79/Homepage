@@ -1,0 +1,64 @@
+body {
+  background-image: url('background.heic');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.bg-overlay {
+  background: rgba(255,255,255,0.85);
+  min-height: 100vh;
+}
+.profilfoto {
+  width: 420px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background: #eee;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blockquote {
+  font-style: italic;
+  background: rgba(255,255,255,0.6);
+  border-left: 4px solid #007bff;
+  padding: 1.5rem 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+.blockquote.poem {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-style: italic;
+  background: rgba(255,255,255,0.7);
+  border-left: 5px solid #6c63ff;
+  padding: 2rem 2rem 2rem 2.5rem;
+  margin: 2.5rem auto;
+  max-width: 600px;
+  letter-spacing: 0.02em;
+  box-shadow: 0 4px 24px rgba(108,99,255,0.07);
+}
+.poem-emphasis {
+  display: block;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: #6c63ff;
+  font-style: normal;
+  font-size: 1.15em;
+}
+.scroll-content {
+  margin-top: 80px;   /* Höhe der Navbar */
+  margin-bottom: 80px; /* Höhe des Footers */
+  overflow-y: auto;
+  min-height: calc(100vh - 160px);
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+.shadow {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+}
